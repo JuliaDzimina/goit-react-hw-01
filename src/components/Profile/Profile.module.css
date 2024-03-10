@@ -1,10 +1,11 @@
 .profileWrapper {
   width: 300px;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 6px;
   overflow: hidden;
   margin: 0 auto 40px;
   text-align: center;
+  background-color: rgb(250, 250, 250);
 }
 
 .description {
@@ -12,10 +13,38 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px 0;
+  font-size: 20px;
+  color: rgb(128, 128, 128);
 }
 
 .imgWrapper {
   border-radius: 50%;
-  background-color: rgb(66, 65, 65);
+  background-color: rgb(42, 42, 42);
   max-width: 30%;
+}
+
+.profileName {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.statsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #888888;
+  border-collapse: collapse;
+  flex-basis: calc(100% / 3);
+  padding: 4px 0;
 }

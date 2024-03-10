@@ -11,21 +11,21 @@ const Profile = ({
     <div className={css.profileWrapper}>
       <div className={css.description}>
         <img className={css.imgWrapper} src={image} alt={name} />
-        <p>{name}</p>
+        <p className={css.profileName}>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
 
-      <ul>
-        <li>
+      <ul className={css.statsList}>
+        <li className={css.statsItem}>
           <span>Followers</span>
           <span>{followers}</span>
         </li>
-        <li>
+        <li className={css.statsItem}>
           <span>Views</span>
           <span>{views}</span>
         </li>
-        <li>
+        <li className={css.statsItem}>
           <span>Likes</span>
           <span>{likes}</span>
         </li>
