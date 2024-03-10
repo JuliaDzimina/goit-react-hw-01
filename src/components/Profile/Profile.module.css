@@ -1,0 +1,21 @@
+.profileWrapper {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgWrapper {
+  border-radius: 50%;
+  background-color: rgb(66, 65, 65);
+  max-width: 30%;
+}
