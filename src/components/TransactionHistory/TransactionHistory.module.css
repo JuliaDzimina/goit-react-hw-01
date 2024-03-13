@@ -1,0 +1,24 @@
+.transactionWrapper {
+  width: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.tableTread th {
+  border: 1px solid #000000;
+  color: azure;
+  background-color: #000000;
+}
+
+.tableTbody td {
+  border: 1px solid #000000;
+  text-align: start;
+  padding-left: 50px;
+}
+
+.row:nth-child(even) {
+  background-color: rgb(198, 195, 195);
+}
